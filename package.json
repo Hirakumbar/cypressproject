@@ -1,0 +1,29 @@
+{
+  "name": "cypresswithtypescriptbrushup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "echo i am inside pretest",
+    "test": "echo i am inside the test....",
+    "posttest": "echo i am inside posttest",
+    "sayhello": "echo hello world...",
+    "merge-reports": "mochawesome-merge ./C:/Users/hira.kumar/cypresswithtypescriptbrushup/mochawesome-report/*.json > report1.json ",
+    "generate-htmlreport": "marge ./report1.json --reportDir ./cypress/reports"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.3.1",
+    "cypress-downloadfile": "^1.2.1",
+    "mochawesome": "^7.0.1",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.0.1",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^2.3.0"
+  }
+}

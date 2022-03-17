@@ -1,0 +1,90 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-02-22T10:09:36.876Z",
+    "end": "2022-02-22T10:09:52.287Z",
+    "duration": 15411,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "768d0176-d091-4f57-83e0-ddf3108e18a7",
+      "title": "",
+      "fullFile": "cypress/integration/assertion.ts",
+      "file": "cypress/integration/assertion.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "learning assertion",
+          "fullTitle": "learning assertion",
+          "timedOut": null,
+          "duration": 11367,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      {\n        \"title\": \"Failed screenshot\",\n        \"value\": \"\\\\assertion.ts\\\\learning assertion (failed).png\"\n      }\n    ]\n  ]\n}",
+          "code": "cy.visit('https://example.cypress.io/');\ncy.get('#query-btn', { timeout: 9000 }).should('contain', 'button')\n    .should('have.class', 'query-btn');",
+          "err": {
+            "message": "AssertionError: Timed out retrying after 9000ms: Expected to find element: `#query-btn`, but never found it.",
+            "estack": "AssertionError: Timed out retrying after 9000ms: Expected to find element: `#query-btn`, but never found it.\n    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress\\integration\\assertion.ts:100:45)",
+            "diff": null
+          },
+          "uuid": "f694f418-8485-4c9e-818b-73e5bfb3dbf5",
+          "parentUUID": "768d0176-d091-4f57-83e0-ddf3108e18a7",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [],
+      "failures": [
+        "f694f418-8485-4c9e-818b-73e5bfb3dbf5"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 11367,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "5.2.0"
+    }
+  }
+}

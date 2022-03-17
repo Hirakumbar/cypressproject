@@ -1,0 +1,86 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-24T07:39:03.949Z",
+    "end": "2022-02-24T07:39:19.801Z",
+    "duration": 15852,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c4e919a3-005a-4c7d-96dc-74846df287ef",
+      "title": "",
+      "fullFile": "cypress/integration/dummyloginpractice.ts",
+      "file": "cypress/integration/dummyloginpractice.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "dummy login test",
+          "fullTitle": "dummy login test",
+          "timedOut": null,
+          "duration": 12546,
+          "state": "passed",
+          "speed": "slow",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "cy.visit('https://rahulshettyacademy.com/AutomationPractice/');\ncy.get('[for=\"radio1\"]').click();\ncy.get('#autocomplete').type('india').click();",
+          "err": {},
+          "uuid": "ed947d5b-8ea4-45ab-a73f-21754d315a18",
+          "parentUUID": "c4e919a3-005a-4c7d-96dc-74846df287ef",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [
+        "ed947d5b-8ea4-45ab-a73f-21754d315a18"
+      ],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 12546,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "5.2.0"
+    }
+  }
+}

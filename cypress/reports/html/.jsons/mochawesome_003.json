@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-22T10:11:01.321Z",
+    "end": "2022-02-22T10:11:02.321Z",
+    "duration": 1000,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "226f1c98-4049-4bdb-9ff2-ebf1e3125e0f",
+      "title": "",
+      "fullFile": "cypress/integration/filedownload.spec.ts",
+      "file": "cypress/integration/filedownload.spec.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "3a7a9771-7c46-44f2-b6f1-71cabfcf658f",
+          "title": "file upload tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "file download demo",
+              "fullTitle": "file upload tests file download demo",
+              "timedOut": null,
+              "duration": 975,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.downloadFile('https://upload.wikimedia.org/wikipedia/en/a/a9/Example.jpg', 'mydownloads', 'example.jpg');",
+              "err": {},
+              "uuid": "87b1bce2-e422-47fb-836d-86fd5058f10d",
+              "parentUUID": "3a7a9771-7c46-44f2-b6f1-71cabfcf658f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "87b1bce2-e422-47fb-836d-86fd5058f10d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 975,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "5.2.0"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-23T12:28:58.689Z",
+    "end": "2022-02-23T12:29:19.138Z",
+    "duration": 20449,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "20198221-90a6-4312-9246-c2a1d5c44756",
+      "title": "",
+      "fullFile": "cypress/integration/basic.ts",
+      "file": "cypress/integration/basic.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "google test",
+          "fullTitle": "google test",
+          "timedOut": null,
+          "duration": 15120,
+          "state": "passed",
+          "speed": "slow",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "cy.visit('https://google.com');\ncy.get('.gLFyf').type('automation step by step')\n    .type('{enter}');",
+          "err": {},
+          "uuid": "612e5aa7-9e5a-44b9-9ae4-c6ca2fad0def",
+          "parentUUID": "20198221-90a6-4312-9246-c2a1d5c44756",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [
+        "612e5aa7-9e5a-44b9-9ae4-c6ca2fad0def"
+      ],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 15120,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "5.2.0"
+    }
+  }
+}

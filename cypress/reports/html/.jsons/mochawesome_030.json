@@ -1,0 +1,86 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-24T07:39:48.685Z",
+    "end": "2022-02-24T07:40:23.882Z",
+    "duration": 35197,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e014653f-3f19-467b-a960-c3d7b1d527d9",
+      "title": "",
+      "fullFile": "cypress/integration/guru99.ts",
+      "file": "cypress/integration/guru99.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "guru99 test",
+          "fullTitle": "guru99 test",
+          "timedOut": null,
+          "duration": 29057,
+          "state": "passed",
+          "speed": "slow",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "cy.visit('https://clicks.aweber.com/y/ct/?l=N2oUE&m=3_dx7v7KqxQLjy9&b=Vk9Twz1lUZjBCQs5.ATtpA');\ncy.get('.nav-1 > .level0').click();\ncy.wait(2000); // wait for 2 seconds\ncy.get('.category-products > :nth-child(1) > .sorter > .sort-by > select').select('Name');\ncy.get(':nth-child(2) > .product-info > .actions > .button > :nth-child(1) > span').click();",
+          "err": {},
+          "uuid": "ab30183b-9730-4f0c-abf6-0d487cefbcb6",
+          "parentUUID": "e014653f-3f19-467b-a960-c3d7b1d527d9",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [
+        "ab30183b-9730-4f0c-abf6-0d487cefbcb6"
+      ],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 29057,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "5.2.0"
+    }
+  }
+}
